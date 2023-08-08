@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>GTB</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <style>
+       .mySlides {
+        margin-bottom: 50px;
+        display: none;
+
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 2.5s;
+        animation-name: fade;
+        animation-duration: 2.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+      #img{
+        align-items: center;
+        margin-top: 20%;
+        width: 70%;
+        border: solid rgb(0, 191, 255) 5px;
+        /* border-radius: 90px ; */
+      }
+
+    </style>
+<!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
+  </head>
+
+<body>
+  
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+              
+                <nav class="main-nav">
+          <!-- <img src="assets/images/web logo.png" style="max-width: 100px; margin-top: 0px;" alt="" srcset=""> -->
+
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h2><img src="assets/images/web logo.png" style="max-width: 150px; margin-top: 0px;" alt="" srcset=""></h2>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+                   
+                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav"  style="margin-top: 18px;">
+                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                      <!-- <li class="dropdown">
+                       <a >Services</a>  
+                        <ul>
+                          <li  class="dropdown"><a>Services</a>
+                            <ul>
+                              <li><a href="">Services</a></li>
+                              <li><a href="">Services</a></li>
+                              <li><a href="">Services</a></li>
+                              <li><a href="">Services</a></li>
+                            
+                            </ul>
+                          </li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">Services</a></li>
+                          <li><a href="">Services</a></li>
+                        
+                        </ul>
+                      </li> -->
+                      <li class="scroll-to-section"><a href="#services">Services</a></li>
+                      <li class="scroll-to-section"><a href="#courses">Projects</a></li>
+                      <li class="scroll-to-section"><a href="#team">Team</a></li>
+                      <li class="scroll-to-section"><a href="#events">Events</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contact Now!</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div id="large-header" class="large-header">
+    <canvas id="demo-canvas">
+      
+    </canvas>
+    <div class="main-banner" id="top">
+        
+      <!-- <h1 class="main-title">Connect <span class="thin">Three</span></h1> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+            <div class="header-text">
+              <div class="row">
+              <div class="col col-md-4 col-lg-4"></div>
+              <div class="col col-md-6 col-lg-6 col-12">
+                <div class="slideshow-container">
+                  <div class="mySlides ">
+                    <!-- <div class="numbertext">1 / 3</div> -->
+                    <img src="assets/images/programming-and-we-design.jpg"  id="img" >
+                    <!-- <div class="text">London, Ebgland</div> -->
+                    <h2 class="text-white">web Services</h2>
+                  </div>
+                  <div class="mySlides ">
+                    <!-- <div class="numbertext">2 / 3</div> -->
+                    <img src="assets/images/big-shopping-sale.jpg" id="img" >
+                    <!-- <div class="text">Sunset in Romania</div> -->
+                    <h2 class="text-white"> E-Comerce Services</h2>
+                  </div>
+                  <div class="mySlides ">
+                    <!-- <div class="numbertext">3 / 3</div> -->
+                    <img src="assets/images/mobile-application-development.jpg" id="img" >
+                    <!-- <div class="text">New York, USA</div> -->
+                    <h2 class="text-white">App Services</h2>
+                  </div>
+                  <div class="mySlides ">
+                    <!-- <div class="numbertext">2 / 3</div> -->
+                    <img src="assets/images/search-engine.jpg" id="img" >
+                    <!-- <div class="text">Sunset in Romania</div> -->
+                    <h2 class="text-white">SEO (Search Engine Optimization)</h2>
+                  </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(0)"></span>
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        
+      </div>
+    </div>
+  </div>
+
+  </div>
+  
+  </div>
+    
+ 
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align: center; margin-bottom: 90px;">Services</h1>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/ser-1.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>Website Development</h4>
+              <p>Our company provides website development services, which involve creating and maintaining websites for businesses. We use a range of tools and technologies, including HTML, CSS, JavaScript, and various web development frameworks and libraries.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/app.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>App Development</h4>
+              <p>Our company provides app development services for both iOS and Android platforms. We use cutting-edge tools and technologies to create innovative and user-friendly mobile applications.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/ecommerce.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>E commerce</h4>
+              <p>Our company provides e-commerce services, enabling businesses to electronically buy and sell products on online platforms. We utilize various technologies such as mobile commerce, supply chain management, internet marketing, and online transaction processing to ensure seamless and efficient transactions for our clients.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/search-engine-optimization.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>search engine optimization </h4>
+              <p>Our company offers search engine optimization (SEO) services to help businesses improve their online visibility and rankings on search engines . We use a range of SEO strategies and techniques, including keyword research, content optimization, and link building, to drive more traffic to our clients' websites.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/digital.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Digital Marketing</h4>
+              <p>At Line 2 Line, we specialize in providing top-notch digital marketing services to help our clients achieve their online goals. From SEO and PPC campaigns to social media management and email marketing, we have the expertise and experience to develop effective strategies that drive results. Contact us today to learn how we can help your business succeed in the digital realm.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/social-media.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Social Media Management</h4>
+              <p>At our company, we specialize in providing expert social media management services to help our clients grow their online presence and engage with their target audience . From developing content and strategies to managing social media accounts and advertising campaigns, our services cover all aspects of social media management. Contact us today to learn more about how we can help you succeed with social media.</p>
+              <div class="main-button">
+                <a href="socialmedia.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/ads.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Ads Advertisement</h4>
+              <p>At our company, we offer comprehensive Ads and Advertisement services to help our clients reach their target audience and achieve their business goals. From AdWords campaigns to social media advertising and display ads, we have the expertise to create effective and engaging advertisements that resonate with your target audience. Contact us today to learn more about how we can help you succeed with Ads and Advertisement.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/custmize.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Custimized Product</h4>
+              <p>At our company, we specialize in creating and delivering customized products to meet the unique needs of our clients. From personalized gifts to promotional items, we work closely with our clients throughout the design process to ensure that their vision is fully realized. Contact us today to learn more about our customized product services and how we can help bring your ideas to life.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/automation.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Automation</h4>
+              <p>At our company, we offer comprehensive automation services that include chatbot development, messenger automation, bulk messaging, and WhatsApp integration. Our expert team can help you streamline and automate your communication processes, saving you time and resources while improving customer satisfaction. Contact us today to learn more about how we can help you automate your business and drive growth.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Where shall we begin?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  "Let's begin by discussing your specific needs and goals, and how our services can help achieve them. Our team is ready to provide expert guidance and support to drive success for your <code>business</code>. Contact us today to start the conversation."
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do we work together?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  To work together <strong>effectively</strong> , it's important to establish clear communication channels, set expectations, and work towards common goals. Our team is committed to collaborating closely with our clients to achieve success through a strategic and results-driven approach. Let's work together to drive growth and achieve your business objectives. Contact us today to learn more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Why GTB is the best?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our company stands out because of our <STROng>commitment</STROng> to providing exceptional quality, personalized service, and a results-driven approach. We prioritize understanding our clients' unique needs and work closely with them to develop customized solutions that deliver measurable benefits. Contact us today to learn more about why our company is the best and how we can help your business achieve success.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Do we get the best support?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At our company, we are dedicated to providing the best possible support to our clients. Whether you need help with technical issues or have questions about our services, our expert team is committed to providing timely and effective assistance. We pride ourselves on delivering personalized, responsive support that exceeds expectations. Contact us today to experience the best support for your business needs.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>About Us</h6>
+            <h2>Why Us?</h2>
+            <p>You know how a lot of companies are big and faceless? How they bully you into just buying what they have to offer?
+
+              Not Us!
+              
+              We're small and, we care. We'll work with you till you smile and say, "This is more than I ever wanted!". We strive to build kickass solutions that you'd want to show off! Solutions that make you stand out and make your life easier. Cliché as it may sound, if you can dream it, we can build it. Or, you can leave it entirely to us! Because we're dreamers who get a kick out of coding and, overcoming challenges.</p>
+            <div class="main-button">
+              <!-- <a href="#">Discover More</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section courses" id="courses" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Latest Projects</h6>
+            <h2>Latest Projects</h2>
+          </div>
+        </div>
+      </div>
+      <ul class="event_filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="*">Show All</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".design">Webdesign</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".development">Development</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".wordpress">Wordpress</a>
+        </li>
+      </ul>
+      <div class="row event_box">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
+              <span class="category">Webdesign</span>
+              <span class="price"><h6><em>$</em>160</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Stella Blair</span>
+              <h4>Learn Web Design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-02.jpg" alt=""></a>
+              <span class="category">Development</span>
+              <span class="price"><h6><em>$</em>340</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Cindy Walker</span>
+              <h4>Web Development Tips</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
+              <span class="category">Wordpress</span>
+              <span class="price"><h6><em>$</em>640</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">David Hutson</span>
+              <h4>Latest Web Trends</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-04.jpg" alt=""></a>
+              <span class="category">Development</span>
+              <span class="price"><h6><em>$</em>450</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Stella Blair</span>
+              <h4>Online Learning Steps</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-05.jpg" alt=""></a>
+              <span class="category">Wordpress</span>
+              <span class="price"><h6><em>$</em>320</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">Sophia Rose</span>
+              <h4>Be a WordPress Master</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
+              <span class="category">Webdesign</span>
+              <span class="price"><h6><em>$</em>240</h6></span>
+            </div>
+            <div class="down-content">
+              <span class="author">David Hutson</span>
+              <h4>Full Stack Developer</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="section fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row" >
+              <div class="col-lg-2 col-md-6" style="margin-bottom: 80px;">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="150" data-speed="1000"></h2>
+                   <p class="count-text ">Happy Students</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="804" data-speed="1000"></h2>
+                  <p class="count-text ">Course Hours</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="50" data-speed="1000"></h2>
+                  <p class="count-text ">Employed Students</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <div class="counter end">
+                  <h2 class="timer count-title count-number" data-to="15" data-speed="1000"></h2>
+                  <p class="count-text ">Years Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="team section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-6"></div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/team3.png" alt="">
+              <span class="category">Funder/ chairman</span>
+              <h4>Saraswati V</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/team2.png" alt="">
+              <span class="category">CMO & Co- founder</span>
+              <h4>Vishwas</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/team1.png" style="border-radius: 50%;" alt="">
+              <span class="category">CEO & Co- founder</span>
+              <h4>Nikhil G B</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+    </div>
+  </div> 
+
+  <div class="section testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-carousel owl-testimonials">
+            <div class="item">
+              <p>“Create a dedicated testimonial page on your website where you can display customer feedback in one place. Choose the most positive, detailed reviews from your clients and prominently display them on this page.”</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Full Stack Master</span>
+                <h4>Claude David</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“Create a dedicated testimonial page on your website where you can display customer feedback in one place. Choose the most positive, detailed reviews from your clients and prominently display them on this page.”</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">UI Expert</span>
+                <h4>Thomas Jefferson</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>“Create a dedicated testimonial page on your website where you can display customer feedback in one place. Choose the most positive, detailed reviews from your clients and prominently display them on this page.”</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Digital Animator</span>
+                <h4>Stella Blair</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h2>What they say about us?</h2>
+            <p>Our reputation speaks for itself: our satisfied clients often refer us to their friends and colleagues and are quick to share their positive experiences on social media and review sites. Contact us today to learn more about how we can help you achieve similar success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Schedule</h6>
+            <h2>Upcoming Events</h2>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-01.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Web Design</span>
+                    <h4>UI Best Practices</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>16 Feb 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>22 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$120</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-02.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Front End</span>
+                    <h4>New Design Trend</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>24 Feb 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>30 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$320</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-03.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Full Stack</span>
+                    <h4>Web Programming</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>12 Mar 2036</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>48 Hours</h6>
+                  </li>
+                  <li>
+                    <span>Price:</span>
+                    <h6>$440</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  align-self-center">
+          <div class="section-heading">
+            <h6>Contact Us</h6>
+            <h2>Feel free to contact us anytime</h2>
+
+                      <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-light btn-social mr-2" href="https://wa.me/message/VA6CIOMG75AUA1"><i class="fab fa-whatsapp"></i></a>
+                      <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/company/g-t-b-services/"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="btn btn-light btn-social" href="https://instagram.com/gtb_services_?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
+
+            <p>Welcome to the GTB contact page. Get in touch with us and we'll do our best to answer your inquiry as soon as possible!</p>
+            <div class="special-offer">
+              <span class="offer">off<br><em>50%</em></span>
+              <h6>Valide: <em>24 April 2036</em></h6>
+              <h4>Special Offer <em>50%</em> OFF!</h4>
+              <a href="#"><i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-us-content">
+            <form id="contact-form" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2023 . All rights reserved. &nbsp;&nbsp;&nbsp; <a href="index.html"><img src="assets/images/web logo.png" style="max-width: 100px; margin-top: 0px;" alt="" srcset=""></a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            .scroll{
+                position: fixed;
+                 bottom:0 ;
+                 right:0; 
+                 border-radius: 90% !important;
+                 display: none;
+            }
+            
+
+        </style>
+    <a class="btn btn-success btn-lg m-4 scroll" href="https://wa.me/message/VA6CIOMG75AUA1" id="scroll-btn" > <i class="fab fa-whatsapp"></i></a>
+    <script>
+        var mybutton = document.getElementById("scroll-btn");
+
+        window.onscroll = function() {scrollFunction();
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                var element = document.getElementById("arrow");
+            }
+            // alert(window.innerHeight + window.scrollY + "::::" + document.body.offsetHeight);
+
+           
+        
+        
+        };
+        
+
+        
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function scrollWin() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+
+                    window.scroll({
+                    top:0,
+                    behavior: 'smooth' 
+                });
+            }
+            else{
+                window.scroll({
+                    top:document.body.scrollHeight,
+                    behavior: 'smooth' 
+                });
+            }
+         
+        }
+    </script>
+  <div class="sticky_logo">
+    <a class="btn btn-light btn-social mr-2" href="https://wa.me/message/VA6CIOMG75AUA1"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src='assets/js/EasePack.min.js'></script>
+  <script src='assets/js/TweenLite.min.js'></script>
+  <script  src="script.js"></script>
+  <script>
+ let slideIndex = 0;
+      let timeoutId = null;
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+      
+      showSlides();
+      function currentSlide(index) {
+           slideIndex = index;
+           showSlides();
+      }
+     function plusSlides(step) {
+        
+        if(step < 0) {
+            slideIndex -= 2;
+            
+            if(slideIndex < 0) {
+              slideIndex = slides.length - 1;
+            }
+        }
+        
+        showSlides();
+     }
+      function showSlides() {
+        for(let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          dots[i].classList.remove('active');
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].classList.add('active');
+         if(timeoutId) {
+            clearTimeout(timeoutId);
+         }
+        timeoutId = setTimeout(showSlides, 2000); // Change image every 5 seconds
+      }
+</script>
+
+  </body>
+</html>
